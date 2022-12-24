@@ -1,0 +1,66 @@
+/* Add your CSS styles here */
+@charset "UTF-8";
+html { font-size: 15px; }
+
+body { 
+  width: 87.5%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  padding-left: 12.5%; 
+  font-family: 'Times New Roman', Times, serif; 
+  background-color: whitesmoke; 
+  color: #111; 
+  max-width: 1400px; 
+  counter-reset: sidenote-counter; 
+}
+  
+/* Add your CSS styles for the color light pink here */
+.light-pink {
+  color: lightpink;
+}
+  
+  /* Add your styles for headings and paragraphs here */
+  /* h1, h2, h3 {
+    color: black;
+  } */
+  
+  h1 { font-weight: 500; margin-top: 10rem; margin-bottom: 1.5rem; font-size: 3.2rem; line-height: 1; }
+
+  h2, h3 { font-style: italic; font-weight: 400; margin-top: 2.1rem; margin-bottom: 1.4rem; font-size: 1.7rem; line-height: 1; }
+
+  /* h3 { font-style: italic; font-weight: 400; font-size: 1.7rem; margin-top: 2rem; margin-bottom: 1.4rem; line-height: 1; } */
+
+
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    padding-right: 30%; 
+    vertical-align: baseline;
+  }
+  
+  /* Add your styles for lists here */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 18px;
+    font-size: 18px; 
+  }
+
+  td { 
+    font-size: 18px; 
+  }
+  
+  /* Add your styles for links here */
+  a {
+    color: lightpink;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: black;
+  }
+  
